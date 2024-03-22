@@ -1,6 +1,4 @@
-import { CardLogin } from "./components/CardLogin";
-import { Container } from "./components/Container";
-import { Form } from "./components/Form";
+import { Login } from "./pages/Login";
 import { Nav } from "./components/Nav";
 
 function App() {
@@ -8,7 +6,7 @@ function App() {
     <>
       <Nav />
       <div className="bg-color3 h-screen w-full overflow-hidden ">
-        <Container form={<Form />} img={<CardLogin />} />
+       <Login/>
       </div>
     </>
   );
